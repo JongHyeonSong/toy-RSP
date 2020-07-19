@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>가위 바위 보</title>
+</head>
+<body>
+    <section class="game">
+        <div class="score">
+            <div class="player-board">
+                <h2>Player</h2>
+                <p>0</p>
+            </div>
+            <div class="computer-board">
+                <h2>Computer</h2>
+                <p>0</p>
+            </div>
+        </div>
+
+        <div class="intro">
+            <h1>가위 바위 보</h1>
+            <button>시작하기</button>
+        </div>
+
+        <div class="match fadeOut">
+            <h2 class="winner">골라주세요</h2>
+            <div class="hands">
+                <img class="player-hand" src="./assets/rock.png" alt="">
+                <img class="computer-hand" src="./assets/rock.png" alt="">
+            </div>
+            <div class="options">
+                <button value='0'>가위</button>
+                <button value='1'>바위</button>
+                <button value='2'>보</button>
+            </div>
+        </div>
+
+
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
